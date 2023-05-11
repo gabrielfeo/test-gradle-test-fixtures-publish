@@ -17,6 +17,6 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.gabrielfeo:test-gradle-test-fixtures-publish:SNAPSHOT")
-    testImplementation(testFixtures("com.github.gabrielfeo:test-gradle-test-fixtures-publish:SNAPSHOT"))
+    implementation("com.github.gabrielfeo:test-gradle-test-fixtures-publish:main-SNAPSHOT")
+    testImplementation(testFixtures("com.github.gabrielfeo:test-gradle-test-fixtures-publish:main-SNAPSHOT"))
 }
