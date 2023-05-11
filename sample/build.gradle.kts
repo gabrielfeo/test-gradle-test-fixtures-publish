@@ -12,8 +12,9 @@ testing {
 }
 
 repositories {
-    mavenLocal()
+    // mavenLocal()
     mavenCentral()
+    maven(url = "https://jitpack.io")
 }
 
 dependencies {
